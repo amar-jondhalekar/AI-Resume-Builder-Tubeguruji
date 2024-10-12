@@ -11,6 +11,8 @@ import EditResume from './dashboard/resume/[resumeId]/edit/index.jsx'
 import ViewResume from './my-resume/[resumeId]/view/index.jsx'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
+console.log('Clerk Publishable Key:', PUBLISHABLE_KEY); // Add this line for debugging
+
 const router=createBrowserRouter([
   {
     path:'/',

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "user-resumes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "UserEmail": {
+      "type": "email"
+    },
+    "Experience": {
+      "type": "blocks"
+    },
+    "Education": {
+      "type": "blocks"
+    },
+    "Skills": {
+      "type": "blocks"
+    },
+    "CreateAt": {
+      "type": "date"
+    },
+    "UpdateAt": {
+      "type": "date"
+    }
+  }
+}
